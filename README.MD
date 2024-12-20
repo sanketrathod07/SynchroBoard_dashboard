@@ -1,19 +1,52 @@
-# proud-results-guess
+# SynchroBoard
 
-<div align="center" style="margin: 30px;">
-    <a href="https://refine.dev">
-    <img alt="refine logo" src="https://refine.ams3.cdn.digitaloceanspaces.com/readme/refine-readme-banner.png">
-    </a>
+Welcome to **SynchroBoard**, a powerful collaborative tool designed to streamline the way teams manage and synchronize their tasks and activities in real-time.
+
+## Project Overview
+
+**SynchroBoard** is built to provide an intuitive interface for real-time task management and collaboration. With features such as synchronized boards, real-time updates, and a fully responsive layout, it enhances the productivity of teams and organizations.
+
+### Key Features:
+
+- **Real-time synchronization**: Changes on the board are reflected instantly for all users.
+- **Task management**: Create, edit, and manage tasks with ease.
+- **User-friendly interface**: Clean, simple design that allows for easy navigation.
+
+## Screenshots
+
+Here are some images of the **SynchroBoard** website:
+
+<div align="center">
+    <img src="public/image/dashboard.png" alt="SynchroBoard Screenshot 1" width="300"/>
+    <img src="public/image/companies.png" alt="SynchroBoard Screenshot 2" width="300"/>
+    <img src="public/image/tasks.png" alt="SynchroBoard Screenshot 3" width="300"/>
+    <img src="public/image/taskEdit.png" alt="SynchroBoard Screenshot 4" width="300"/>
 </div>
-<br/>
-
-This [Refine](https://github.com/refinedev/refine) project was generated with [create refine-app](https://github.com/refinedev/refine/tree/master/packages/create-refine-app).
 
 ## Getting Started
 
-A React Framework for building internal tools, admin panels, dashboards & B2B apps with unmatched flexibility ✨
+To set up **SynchroBoard** on your local machine, follow these steps:
 
-Refine's hooks and components simplifies the development process and eliminates the repetitive tasks by providing industry-standard solutions for crucial aspects of a project, including authentication, access control, routing, networking, state management, and i18n.
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/<your-username>/synchroboard.git
+cd synchroboard
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Run the development server
+
+```bash
+npm run dev
+```
+
+This will start the development server. You can access the app by opening your browser and going to http://localhost:3000.
 
 ## Available Scripts
 
@@ -34,16 +67,3 @@ Refine's hooks and components simplifies the development process and eliminates 
 ```bash
     npm run start
 ```
-
-## Learn More
-
-To learn more about **Refine**, please check out the [Documentation](https://refine.dev/docs)
-
-- **NestJS Query Data Provider** [Docs](https://refine.dev/docs/data/packages/nestjs-query/)
-- **Ant Design** [Docs](https://refine.dev/docs/ui-frameworks/antd/tutorial/)
-- **React Router** [Docs](https://refine.dev/docs/core/providers/router-provider/)
-- **Custom Auth Provider** [Docs](https://refine.dev/docs/core/providers/auth-provider/)
-
-## License
-
-MIT
